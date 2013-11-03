@@ -18,29 +18,29 @@ I've been unable to automate the observation, so it's tedious going to compile
 this list.
 
 <table>
-<tr><th>Asus Nexus 7, 1st gen, Android 4.3</th>
+<tr><td>Asus Nexus 7, 1st gen, Android 4.3</td>
 <td>exhibits the problem</td></tr>
-<tr><th>Emulator, Nexus S, 4.0.3 system image, ARM w/ Host GPU</th>
+<tr><td>Emulator, Nexus S, 4.0.3 system image, ARM w/ Host GPU</td>
 <td>works as intended</td></tr>
-<tr><th>Emulator, Nexus S, 4.0.3 system image, ARM w/o Host GPU</th>
+<tr><td>Emulator, Nexus S, 4.0.3 system image, ARM w/o Host GPU</td>
 <td>works as intended</td></tr>
-<tr><th>Emulator, Galaxy Nexus, fresh 4.1.2 system image, ARM w/ Host GPU</th>
+<tr><td>Emulator, Galaxy Nexus, fresh 4.1.2 system image, ARM w/ Host GPU</td>
 <td>exhibits the problem</td></tr>
-<tr><th>Emulator, Galaxy Nexus, fresh 4.1.2 system image, ARM w/o Host GPU</th>
+<tr><td>Emulator, Galaxy Nexus, fresh 4.1.2 system image, ARM w/o Host GPU</td>
 <td>works as intended</td></tr>
-<tr><th>Emulator, Galaxy Nexus, fresh 4.2.2 system image, ARM w/ Host GPU</th>
+<tr><td>Emulator, Galaxy Nexus, fresh 4.2.2 system image, ARM w/ Host GPU</td>
 <td>exhibits the problem</td></tr>
-<tr><th>Emulator, Galaxy Nexus, fresh 4.2.2 system image, ARM w/o Host GPU</th>
+<tr><td>Emulator, Galaxy Nexus, fresh 4.2.2 system image, ARM w/o Host GPU</td>
 <td>works as intended</td></tr>
-<tr><th>Emulator, Galaxy Nexus, fresh 4.3 system image, ARM w/ Host GPU</th>
+<tr><td>Emulator, Galaxy Nexus, fresh 4.3 system image, ARM w/ Host GPU</td>
 <td>exhibits the problem</td></tr>
-<tr><th>Emulator, Galaxy Nexus, fresh 4.3 system image, ARM w/o Host GPU</th>
+<tr><td>Emulator, Galaxy Nexus, fresh 4.3 system image, ARM w/o Host GPU</td>
 <td>works as intended</td></tr>
-<tr><th>Emulator, Galaxy Nexus, fresh 4.3 system image, x86 w/ Intel HAXM</th>
+<tr><td>Emulator, Galaxy Nexus, fresh 4.3 system image, x86 w/ Intel HAXM</td>
 <td>works as intended</td></tr>
-<tr><th>Emulator, Nexus 4, fresh 4.4 system image, ARM w/ Host GPU</th>
+<tr><td>Emulator, Nexus 4, fresh 4.4 system image, ARM w/ Host GPU</td>
 <td>exhibits the problem</td></tr>
-<tr><th>Emulator, Nexus 4, fresh 4.4 system image, ARM w/o Host GPU</th>
+<tr><td>Emulator, Nexus 4, fresh 4.4 system image, ARM w/o Host GPU</td>
 <td>works as intended</td></tr>
 </table>
 
