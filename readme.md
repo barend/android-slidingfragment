@@ -17,30 +17,32 @@ whether the problem is consistent per device or somehow varies across installs.
 I've been unable to automate the observation, so it's tedious going to compile
 this list.
 
-* *Asus Nexus 7, 1st gen, Android 4.3*
-  exhibits the problem
-* *Emulator, Nexus S, 4.0.3 system image, ARM w/ Host GPU*
-  works as intended
-* *Emulator, Nexus S, 4.0.3 system image, ARM w/o Host GPU*
-  works as intended
-* *Emulator, Galaxy Nexus, fresh 4.1.2 system image, ARM w/ Host GPU*
-  exhibits the problem
-* *Emulator, Galaxy Nexus, fresh 4.1.2 system image, ARM w/o Host GPU*
-  works as intended
-* *Emulator, Galaxy Nexus, fresh 4.2.2 system image, ARM w/ Host GPU*
-  exhibits the problem
-* *Emulator, Galaxy Nexus, fresh 4.2.2 system image, ARM w/o Host GPU*
-  works as intended
-* *Emulator, Galaxy Nexus, fresh 4.3 system image, ARM w/ Host GPU*
-  exhibits the problem
-* *Emulator, Galaxy Nexus, fresh 4.3 system image, ARM w/o Host GPU*
-  works as intended
-* *Emulator, Galaxy Nexus, fresh 4.3 system image, x86 w/ Intel HAXM*
-  works as intended
-* *Emulator, Nexus 4, fresh 4.4 system image, ARM w/ Host GPU*
-  exhibits the problem
-* *Emulator, Nexus 4, fresh 4.4 system image, ARM w/o Host GPU*
-  works as intended
+<table>
+<tr><th>Asus Nexus 7, 1st gen, Android 4.3</th>
+<td>exhibits the problem</td></tr>
+<tr><th>Emulator, Nexus S, 4.0.3 system image, ARM w/ Host GPU</th>
+<td>works as intended</td></tr>
+<tr><th>Emulator, Nexus S, 4.0.3 system image, ARM w/o Host GPU</th>
+<td>works as intended</td></tr>
+<tr><th>Emulator, Galaxy Nexus, fresh 4.1.2 system image, ARM w/ Host GPU</th>
+<td>exhibits the problem</td></tr>
+<tr><th>Emulator, Galaxy Nexus, fresh 4.1.2 system image, ARM w/o Host GPU</th>
+<td>works as intended</td></tr>
+<tr><th>Emulator, Galaxy Nexus, fresh 4.2.2 system image, ARM w/ Host GPU</th>
+<td>exhibits the problem</td></tr>
+<tr><th>Emulator, Galaxy Nexus, fresh 4.2.2 system image, ARM w/o Host GPU</th>
+<td>works as intended</td></tr>
+<tr><th>Emulator, Galaxy Nexus, fresh 4.3 system image, ARM w/ Host GPU</th>
+<td>exhibits the problem</td></tr>
+<tr><th>Emulator, Galaxy Nexus, fresh 4.3 system image, ARM w/o Host GPU</th>
+<td>works as intended</td></tr>
+<tr><th>Emulator, Galaxy Nexus, fresh 4.3 system image, x86 w/ Intel HAXM</th>
+<td>works as intended</td></tr>
+<tr><th>Emulator, Nexus 4, fresh 4.4 system image, ARM w/ Host GPU</th>
+<td>exhibits the problem</td></tr>
+<tr><th>Emulator, Nexus 4, fresh 4.4 system image, ARM w/o Host GPU</th>
+<td>works as intended</td></tr>
+</table>
 
 It's clear that the Host GPU acceleration surfaces the problem on the emulators
 running Jelly Bean or newer. I'd leave it at that if my Nexus 7 were showing
