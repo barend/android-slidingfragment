@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="SlidingFragment">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="NavigationFragment" parent="SlidingFragment">
+        <item name="android:filterTouchesWhenObscured">true</item>
+    </style>
+
+    <style name="AgendaList" parent="SlidingFragment">
+    </style>
+
+    <color name="hsl_shadow_color">@android:color/black</color>
+    <integer name="hsl_animation_duration">@android:integer/config_mediumAnimTime</integer>
+</resources>

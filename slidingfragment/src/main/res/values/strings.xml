@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sliding fragment</string>
+    <string name="over_fragment">Over fragment</string>
+    <string name="under_fragment">Under fragment</string>
+    <string name="under_fragment_button">Slide</string>
+</resources>
