@@ -42,6 +42,12 @@ this list.
 <td>exhibits the problem</td></tr>
 <tr><td>Emulator, Nexus 4, fresh 4.4 system image, ARM w/o Host GPU</td>
 <td>works as intended</td></tr>
+<tr><td>Samsung Galaxy SIII, Android 4.1.2</td>
+<td>exhibits the problem</td></tr>
+<tr><td>Samsung Galaxy Tab 3 10.1", Android 4.2.2</td>
+<td>exhibits the problem</td></tr>
+<tr><td>HTC One-X, Android 4.0.4</td>
+<td>works as intended</td></tr>
 </table>
 
 It's clear that the Host GPU acceleration surfaces the problem on the emulators
