@@ -46,6 +46,13 @@ public class UnderFragment extends Fragment implements View.OnClickListener {
         callback.onButtonPressed();
     }
 
+    void setVisible(boolean visible) {
+        View view = getView();
+        if (view != null) {
+            view.setVisibility(visible ? View.VISIBLE : View.INVISIBLE);
+        }
+    }
+
     public interface Callback {
         void onButtonPressed();
     }
