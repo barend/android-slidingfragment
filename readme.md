@@ -10,6 +10,8 @@ There's an intermittent problem where this shadow is drawn properly as the
 fragment slides in, but not as the fragment slides back out. A more detailed
 description is in the question on Stack Overflow.
 
+> **Note:** A solution is now provided in the "solution" branch.
+
 At the time of writing, I don't have access to my physical test devices. I'll
 update my observations as those come into grasp. Note that the sample size on
 each of the below isn't very large (one or two tries each), so I'm not sure
